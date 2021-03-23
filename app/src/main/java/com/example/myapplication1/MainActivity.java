@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         enterButton.findViewById(R.id.enterButton);
         textView.findViewById(R.id.textView);
         editText.findViewById(R.id.editTextName);
+        System.out.println("Asdasd");
 
         enterButton.setOnClickListener(new View.OnClickListener() {
             @Override
